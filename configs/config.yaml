@@ -1,0 +1,30 @@
+Dataset: MOH
+
+
+MODEL:
+  RobertaPath: './roberta-base'
+  dropout_rate: 0.1
+
+TRAIN:
+  lr: 1e-5
+
+MOH:
+  data_dir: './data/MOH'
+  BatchSize: 16
+  max_length: 16
+  epochs: 20
+  savaPath: './result/MOH_Weights.pth'
+
+TroFi:
+  data_dir: './data/TroFi'
+  BatchSize: 16
+  max_length: 64
+  epochs: 10
+  savaPath: './result/TroFi_Weights.pth'
+
+VUA:
+  data_dir: './data/VUA'
+  BatchSize: 128
+  max_length: 64
+  epochs: 10
+  savaPath: './result/VUA_Weights.pth'
