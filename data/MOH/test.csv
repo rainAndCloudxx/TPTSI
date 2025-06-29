@@ -1,0 +1,451 @@
+index,label,expression,Positive_index,context,AnchorContext,NegativeSentence,NegativeExpression,Negative_index
+0,1,circulates,1,She circulates among royalty .,She [Mask] among royalty .,He bowed before the King,bowed,1
+1,1,circulates,1,She circulates among royalty .,She [Mask] among royalty .,She bolted from her seat,bolted,1
+2,1,circulates,1,She circulates among royalty .,She [Mask] among royalty .,Her action amounted to a rebellion,amounted,2
+3,0,clog,2,The leaves clog our drains in the Fall,The leaves [Mask] our drains in the Fall,capture the essence of Spring,capture,0
+4,0,clog,2,The leaves clog our drains in the Fall,The leaves [Mask] our drains in the Fall,We escaped to our summer house for a few days,escaped,1
+5,0,clog,2,The leaves clog our drains in the Fall,The leaves [Mask] our drains in the Fall,He breathed new life into the old house,breathed,1
+6,1,aim,1,I aim to arrive at noon,I [Mask] to arrive at noon,I asked about their special today,asked,1
+7,1,aim,1,I aim to arrive at noon,I [Mask] to arrive at noon,I assume his train was late,assume,1
+8,1,aim,1,I aim to arrive at noon,I [Mask] to arrive at noon,I can breathe better when the air is clean,breathe,2
+9,1,condemned,6,His devotion to his sick wife condemned him to a lonely existence,His devotion to his sick wife [Mask] him to a lonely existence,The death of his wife caused him to age fast,age,8
+10,1,condemned,6,His devotion to his sick wife condemned him to a lonely existence,His devotion to his sick wife [Mask] him to a lonely existence,She challenged his claims,challenged,1
+11,1,condemned,6,His devotion to his sick wife condemned him to a lonely existence,His devotion to his sick wife [Mask] him to a lonely existence,She committed herself to the work of God,committed,1
+12,1,clogged,2,horses were clogged until they were tamed,horses were [Mask] until they were tamed,They adhered to their plan .,adhered,1
+13,1,clogged,2,horses were clogged until they were tamed,horses were [Mask] until they were tamed,The big bird clapped its wings,clapped,3
+14,1,clogged,2,horses were clogged until they were tamed,horses were [Mask] until they were tamed,Her action amounted to a rebellion,amounted,2
+15,1,drains,3,The exercise class drains me of energy .,The exercise class [Mask] me of energy .,She attends class regularly,attends,1
+16,1,drains,3,The exercise class drains me of energy .,The exercise class [Mask] me of energy .,I can breathe better when the air is clean,breathe,2
+17,1,drains,3,The exercise class drains me of energy .,The exercise class [Mask] me of energy .,administer a program,administer,0
+18,1,acts,1,She acts as the chair,She [Mask] as the chair,She bolted from her seat,bolted,1
+19,1,acts,1,She acts as the chair,She [Mask] as the chair,She attends class regularly,attends,1
+20,1,acts,1,She acts as the chair,She [Mask] as the chair,Her action amounted to a rebellion,amounted,2
+21,0,bobbed,2,her rucksack bobbed gently on her back,her rucksack [Mask] gently on her back,Her feelings condensed,condensed,2
+22,0,bobbed,2,her rucksack bobbed gently on her back,her rucksack [Mask] gently on her back,Middle age dulled her appetite for travel,dulled,2
+23,0,bobbed,2,her rucksack bobbed gently on her back,her rucksack [Mask] gently on her back,She acts as the chair,acts,1
+24,1,drifting,3,stock prices are drifting higher,stock prices are [Mask] higher,You cannot conduct business like this,conduct,2
+25,1,drifting,3,stock prices are drifting higher,stock prices are [Mask] higher,I asked about their special today,asked,1
+26,1,drifting,3,stock prices are drifting higher,stock prices are [Mask] higher,He addressed the crowd outside the window .,addressed,1
+27,0,circulated,4,This letter is being circulated among the faculty .,This letter is being [Mask] among the faculty .,They fastened various nicknames to each other .,fastened,1
+28,0,circulated,4,This letter is being circulated among the faculty .,This letter is being [Mask] among the faculty .,The Senator blistered the administration in his speech on Friday .,blistered,2
+29,0,circulated,4,This letter is being circulated among the faculty .,This letter is being [Mask] among the faculty .,You must adhere to the rules .,adhere,2
+30,1,besieged,2,She was besieged by so many problems that she got discouraged,She was [Mask] by so many problems that she got discouraged,She didn't want to answer,answer,4
+31,1,besieged,2,She was besieged by so many problems that she got discouraged,She was [Mask] by so many problems that she got discouraged,Her action amounted to a rebellion,amounted,2
+32,1,besieged,2,She was besieged by so many problems that she got discouraged,She was [Mask] by so many problems that she got discouraged,She attends class regularly,attends,1
+33,1,bowed,2,The government bowed to the military pressure,The government [Mask] to the military pressure,They adhered to their plan .,adhered,1
+34,1,bowed,2,The government bowed to the military pressure,The government [Mask] to the military pressure,Her action amounted to a rebellion,amounted,2
+35,1,bowed,2,The government bowed to the military pressure,The government [Mask] to the military pressure,Let's avoid a confrontation .,avoid,1
+36,0,clapped,3,The big bird clapped its wings,The big bird [Mask] its wings,capture the essence of Spring,capture,0
+37,0,clapped,3,The big bird clapped its wings,The big bird [Mask] its wings,dashed ambitions and hopes,dashed,0
+38,0,clapped,3,The big bird clapped its wings,The big bird [Mask] its wings,Appeal to somebody for help !,Appeal,0
+39,1,engraved,2,The event engraved itself into her memory,The event [Mask] itself into her memory,Her action amounted to a rebellion,amounted,2
+40,1,engraved,2,The event engraved itself into her memory,The event [Mask] itself into her memory,She didn't want to answer,answer,4
+41,1,engraved,2,The event engraved itself into her memory,The event [Mask] itself into her memory,She challenged his claims,challenged,1
+42,0,analyzed,2,I was analyzed in Vienna by a famous psychiatrist .,I was [Mask] in Vienna by a famous psychiatrist .,My skin crawled I was terrified,crawled,2
+43,0,analyzed,2,I was analyzed in Vienna by a famous psychiatrist .,I was [Mask] in Vienna by a famous psychiatrist .,I was drowned in work,drowned,2
+44,0,analyzed,2,I was analyzed in Vienna by a famous psychiatrist .,I was [Mask] in Vienna by a famous psychiatrist .,She circulates among royalty .,circulates,1
+45,1,dulled,2,Middle age dulled her appetite for travel,Middle age [Mask] her appetite for travel,She bolted from her seat,bolted,1
+46,1,dulled,2,Middle age dulled her appetite for travel,Middle age [Mask] her appetite for travel,She attends class regularly,attends,1
+47,1,dulled,2,Middle age dulled her appetite for travel,Middle age [Mask] her appetite for travel,Her feet blistered during the long hike .,blistered,2
+48,0,appreciate,2,Do you appreciate the full meaning of this letter ?,Do you [Mask] the full meaning of this letter ?,Appeal to somebody for help !,Appeal,0
+49,0,appreciate,2,Do you appreciate the full meaning of this letter ?,Do you [Mask] the full meaning of this letter ?,You must adhere to the rules .,adhere,2
+50,0,appreciate,2,Do you appreciate the full meaning of this letter ?,Do you [Mask] the full meaning of this letter ?,Her feelings condensed,condensed,2
+51,1,amount,4,This idea will never amount to anything,This idea will never [Mask] to anything,You cannot conduct business like this,conduct,2
+52,1,amount,4,This idea will never amount to anything,This idea will never [Mask] to anything,They adhered to their plan .,adhered,1
+53,1,amount,4,This idea will never amount to anything,This idea will never [Mask] to anything,think before you act,act,3
+54,1,exploded,2,The boss exploded when he heard of the resignation of the secretary,The boss [Mask] when he heard of the resignation of the secretary,This boss abuses his workers .,abuses,2
+55,1,exploded,2,The boss exploded when he heard of the resignation of the secretary,The boss [Mask] when he heard of the resignation of the secretary,Please communicate this message to all employees,communicate,1
+56,1,exploded,2,The boss exploded when he heard of the resignation of the secretary,The boss [Mask] when he heard of the resignation of the secretary,Our office is fully computerized now .,computerized,4
+57,0,bothers,6,Mosquitoes buzzing in my ear really bothers me,Mosquitoes buzzing in my ear really [Mask] me,My skin crawled I was terrified,crawled,2
+58,0,bothers,6,Mosquitoes buzzing in my ear really bothers me,Mosquitoes buzzing in my ear really [Mask] me,I was drowned in work,drowned,2
+59,0,bothers,6,Mosquitoes buzzing in my ear really bothers me,Mosquitoes buzzing in my ear really [Mask] me,Appeal to somebody for help !,Appeal,0
+60,1,blast,3,She tended to blast when speaking into a microphone,She tended to [Mask] when speaking into a microphone,She didn't want to answer,answer,4
+61,1,blast,3,She tended to blast when speaking into a microphone,She tended to [Mask] when speaking into a microphone,She bolted from her seat,bolted,1
+62,1,blast,3,She tended to blast when speaking into a microphone,She tended to [Mask] when speaking into a microphone,She attends class regularly,attends,1
+63,1,condensed,2,Her feelings condensed,Her feelings [Mask],She didn't want to answer,answer,4
+64,1,condensed,2,Her feelings condensed,Her feelings [Mask],She challenged his claims,challenged,1
+65,1,condensed,2,Her feelings condensed,Her feelings [Mask],Her action amounted to a rebellion,amounted,2
+66,1,consumed,2,The fire consumed the building,The fire [Mask] the building,He addressed the crowd outside the window .,addressed,1
+67,1,consumed,2,The fire consumed the building,The fire [Mask] the building,Our office is fully computerized now .,computerized,4
+68,1,consumed,2,The fire consumed the building,The fire [Mask] the building,administer a program,administer,0
+69,0,attacked,1,"Hitler attacked Poland on September 1 , 1939 and started World War II","Hitler [Mask] Poland on September 1 , 1939 and started World War II",Social forces converged to bring the Fascists back to power .,converged,2
+70,0,attacked,1,"Hitler attacked Poland on September 1 , 1939 and started World War II","Hitler [Mask] Poland on September 1 , 1939 and started World War II",Unrest erupted in the country,erupted,1
+71,0,attacked,1,"Hitler attacked Poland on September 1 , 1939 and started World War II","Hitler [Mask] Poland on September 1 , 1939 and started World War II",dashed ambitions and hopes,dashed,0
+72,0,composed,1,Beethoven composed nine symphonies,Beethoven [Mask] nine symphonies,dashed ambitions and hopes,dashed,0
+73,0,composed,1,Beethoven composed nine symphonies,Beethoven [Mask] nine symphonies,The rooms communicated,communicated,2
+74,0,composed,1,Beethoven composed nine symphonies,Beethoven [Mask] nine symphonies,capture the essence of Spring,capture,0
+75,0,attends,1,She attends class regularly,She [Mask] class regularly,She acts as the chair,acts,1
+76,0,attends,1,She attends class regularly,She [Mask] class regularly,She designed a good excuse for not attending classes that day .,designed,1
+77,0,attends,1,She attends class regularly,She [Mask] class regularly,She circulates among royalty .,circulates,1
+78,1,boost,4,The tax cut will boost the economy .,The tax cut will [Mask] the economy .,They adhered to their plan .,adhered,1
+79,1,boost,4,The tax cut will boost the economy .,The tax cut will [Mask] the economy .,You cannot conduct business like this,conduct,2
+80,1,boost,4,The tax cut will boost the economy .,The tax cut will [Mask] the economy .,Will the new rules affect me ?,affect,4
+81,1,exhaust,3,One should not exhaust one's savings .,One should not [Mask] one's savings .,You cannot conduct business like this,conduct,2
+82,1,exhaust,3,One should not exhaust one's savings .,One should not [Mask] one's savings .,Please don't aim at your little brother !,aim,2
+83,1,exhaust,3,One should not exhaust one's savings .,One should not [Mask] one's savings .,She didn't want to answer,answer,4
+84,0,act,3,think before you act,think before you [Mask],You must adhere to the rules .,adhere,2
+85,0,act,3,think before you act,think before you [Mask],Appeal to somebody for help !,Appeal,0
+86,0,act,3,think before you act,think before you [Mask],dashed ambitions and hopes,dashed,0
+87,1,dumped,2,The company dumped him after many years of service,The company [Mask] him after many years of service,This boss abuses his workers .,abuses,2
+88,1,dumped,2,The company dumped him after many years of service,The company [Mask] him after many years of service,They adhered to their plan .,adhered,1
+89,1,dumped,2,The company dumped him after many years of service,The company [Mask] him after many years of service,Our office is fully computerized now .,computerized,4
+90,0,breathe,2,I can breathe better when the air is clean,I can [Mask] better when the air is clean,I was drowned in work,drowned,2
+91,0,breathe,2,I can breathe better when the air is clean,I can [Mask] better when the air is clean,capture the essence of Spring,capture,0
+92,0,breathe,2,I can breathe better when the air is clean,I can [Mask] better when the air is clean,I aim to arrive at noon,aim,1
+93,0,bind,3,The Chinese would bind the feet of their women .,The Chinese would [Mask] the feet of their women .,She circulates among royalty .,circulates,1
+94,0,bind,3,The Chinese would bind the feet of their women .,The Chinese would [Mask] the feet of their women .,You must adhere to the rules .,adhere,2
+95,0,bind,3,The Chinese would bind the feet of their women .,The Chinese would [Mask] the feet of their women .,Turn and face your partner now .,face,2
+96,1,bounce,7,The ex - boxer's job is to bounce people who want to enter this private club,The ex - boxer's job is to [Mask] people who want to enter this private club,They adhered to their plan .,adhered,1
+97,1,bounce,7,The ex - boxer's job is to bounce people who want to enter this private club,The ex - boxer's job is to [Mask] people who want to enter this private club,She attends class regularly,attends,1
+98,1,bounce,7,The ex - boxer's job is to bounce people who want to enter this private club,The ex - boxer's job is to [Mask] people who want to enter this private club,He addressed the crowd outside the window .,addressed,1
+99,0,change,6,Father had to learn how to change the baby,Father had to learn how to [Mask] the baby,He breathed new life into the old house,breathed,1
+100,0,change,6,Father had to learn how to change the baby,Father had to learn how to [Mask] the baby,You must adhere to the rules .,adhere,2
+101,0,change,6,Father had to learn how to change the baby,Father had to learn how to [Mask] the baby,Turn and face your partner now .,face,2
+102,1,blistered,2,The Senator blistered the administration in his speech on Friday .,The Senator [Mask] the administration in his speech on Friday .,This letter is being circulated among the faculty .,circulated,4
+103,1,blistered,2,The Senator blistered the administration in his speech on Friday .,The Senator [Mask] the administration in his speech on Friday .,She challenged his claims,challenged,1
+104,1,blistered,2,The Senator blistered the administration in his speech on Friday .,The Senator [Mask] the administration in his speech on Friday .,He admitted his errors,admitted,1
+105,0,bounced,3,The rubber ball bounced,The rubber ball [Mask],Appeal to somebody for help !,Appeal,0
+106,0,bounced,3,The rubber ball bounced,The rubber ball [Mask],dashed ambitions and hopes,dashed,0
+107,0,bounced,3,The rubber ball bounced,The rubber ball [Mask],capture the essence of Spring,capture,0
+108,1,emerged,3,Some nice results emerged from the study,Some nice results [Mask] from the study,administer a program,administer,0
+109,1,emerged,3,Some nice results emerged from the study,Some nice results [Mask] from the study,I can breathe better when the air is clean,breathe,2
+110,1,emerged,3,Some nice results emerged from the study,Some nice results [Mask] from the study,I believed his report,believed,1
+111,0,acknowledged,3,The program committee acknowledged the submission of the authors of the paper,The program committee [Mask] the submission of the authors of the paper,The speech crowned the meeting,crowned,2
+112,0,acknowledged,3,The program committee acknowledged the submission of the authors of the paper,The program committee [Mask] the submission of the authors of the paper,The editors of the left - leaning paper attacked the new House Speaker,attacked,8
+113,0,acknowledged,3,The program committee acknowledged the submission of the authors of the paper,The program committee [Mask] the submission of the authors of the paper,They fastened various nicknames to each other .,fastened,1
+114,0,air,2,We cannot air this X - rated song,We cannot [Mask] this X - rated song,I can't buy this story,buy,2
+115,0,air,2,We cannot air this X - rated song,We cannot [Mask] this X - rated song,I cannot digest all this information,digest,2
+116,0,air,2,We cannot air this X - rated song,We cannot [Mask] this X - rated song,Turn and face your partner now .,face,2
+117,1,clouded,3,Their faces were clouded with sadness .,Their faces were [Mask] with sadness .,The death of his wife caused him to age fast,age,8
+118,1,clouded,3,Their faces were clouded with sadness .,Their faces were [Mask] with sadness .,They adhered to their plan .,adhered,1
+119,1,clouded,3,Their faces were clouded with sadness .,Their faces were [Mask] with sadness .,I asked about their special today,asked,1
+120,0,appeared,2,He suddenly appeared at the wedding,He suddenly [Mask] at the wedding,Turn and face your partner now .,face,2
+121,0,appeared,2,He suddenly appeared at the wedding,He suddenly [Mask] at the wedding,She circulates among royalty .,circulates,1
+122,0,appeared,2,He suddenly appeared at the wedding,He suddenly [Mask] at the wedding,She was crushed by his refusal of her invitation,crushed,2
+123,1,admits,2,This problem admits of no solution,This problem [Mask] of no solution,administer a program,administer,0
+124,1,admits,2,This problem admits of no solution,This problem [Mask] of no solution,He admitted his errors,admitted,1
+125,1,admits,2,This problem admits of no solution,This problem [Mask] of no solution,think before you act,act,3
+126,1,downed,1,He downed three martinis before dinner .,He [Mask] three martinis before dinner .,He suddenly appeared at the wedding,appeared,2
+127,1,downed,1,He downed three martinis before dinner .,He [Mask] three martinis before dinner .,He bowed before the King,bowed,1
+128,1,downed,1,He downed three martinis before dinner .,He [Mask] three martinis before dinner .,He admitted his errors,admitted,1
+129,0,besieged,2,The Turks besieged Vienna,The Turks [Mask] Vienna,The Turks erased the Armenians in 1915,erased,2
+130,0,besieged,2,The Turks besieged Vienna,The Turks [Mask] Vienna,She circulates among royalty .,circulates,1
+131,0,besieged,2,The Turks besieged Vienna,The Turks [Mask] Vienna,The rooms communicated,communicated,2
+132,1,express,5,Many of the laboratory animals express the trait .,Many of the laboratory animals [Mask] the trait .,They adhered to their plan .,adhered,1
+133,1,express,5,Many of the laboratory animals express the trait .,Many of the laboratory animals [Mask] the trait .,We don't allow dogs here,allow,2
+134,1,express,5,Many of the laboratory animals express the trait .,Many of the laboratory animals [Mask] the trait .,This letter is being circulated among the faculty .,circulated,4
+135,0,condemn,1,We condemn the racism in South Africa,We [Mask] the racism in South Africa,Unrest erupted in the country,erupted,1
+136,0,condemn,1,We condemn the racism in South Africa,We [Mask] the racism in South Africa,He absorbed the knowledge or beliefs of his tribe .,absorbed,1
+137,0,condemn,1,We condemn the racism in South Africa,We [Mask] the racism in South Africa,They fastened various nicknames to each other .,fastened,1
+138,1,answers,6,The steering of my new car answers to the slightest touch,The steering of my new car [Mask] to the slightest touch,back into the driveway,back,0
+139,1,answers,6,The steering of my new car answers to the slightest touch,The steering of my new car [Mask] to the slightest touch,Can you accommodate me with a rental car ?,accommodate,2
+140,1,answers,6,The steering of my new car answers to the slightest touch,The steering of my new car [Mask] to the slightest touch,administer a program,administer,0
+141,0,blurs,2,The haze blurs the hills,The haze [Mask] the hills,capture the essence of Spring,capture,0
+142,0,blurs,2,The haze blurs the hills,The haze [Mask] the hills,The rooms communicated,communicated,2
+143,0,blurs,2,The haze blurs the hills,The haze [Mask] the hills,They clawed their way to the top of the mountain .,clawed,1
+144,1,abuse,1,Don't abuse the system .,Don't [Mask] the system .,You cannot conduct business like this,conduct,2
+145,1,abuse,1,Don't abuse the system .,Don't [Mask] the system .,We don't allow dogs here,allow,2
+146,1,abuse,1,Don't abuse the system .,Don't [Mask] the system .,Please don't aim at your little brother !,aim,2
+147,0,allow,2,We don't allow dogs here,We don't [Mask] dogs here,Don't abuse the system .,abuse,1
+148,0,allow,2,We don't allow dogs here,We don't [Mask] dogs here,Don't bolt your food !,bolt,1
+149,0,allow,2,We don't allow dogs here,We don't [Mask] dogs here,Many of the laboratory animals express the trait .,express,5
+150,1,adhere,2,You must adhere to the rules .,You must [Mask] to the rules .,Will the new rules affect me ?,affect,4
+151,1,adhere,2,You must adhere to the rules .,You must [Mask] to the rules .,think before you act,act,3
+152,1,adhere,2,You must adhere to the rules .,You must [Mask] to the rules .,They adhered to their plan .,adhered,1
+153,0,admitted,1,He admitted his errors,He [Mask] his errors,The bad review of his work deflated his self - confidence,deflated,6
+154,0,admitted,1,He admitted his errors,He [Mask] his errors,Greed and ambition composed his personality,composed,3
+155,0,admitted,1,He admitted his errors,He [Mask] his errors,I was drowned in work,drowned,2
+156,0,blasting,4,the air conditioning was blasting cold air at us,the air conditioning was [Mask] cold air at us,We escaped to our summer house for a few days,escaped,1
+157,0,blasting,4,the air conditioning was blasting cold air at us,the air conditioning was [Mask] cold air at us,Fire had devoured our home,devoured,2
+158,0,blasting,4,the air conditioning was blasting cold air at us,the air conditioning was [Mask] cold air at us,My skin crawled I was terrified,crawled,2
+159,1,buy,2,I can't buy this story,I can't [Mask] this story,You cannot conduct business like this,conduct,2
+160,1,buy,2,I can't buy this story,I can't [Mask] this story,She didn't want to answer,answer,4
+161,1,buy,2,I can't buy this story,I can't [Mask] this story,This book belongs to me,belongs,2
+162,0,Boost,0,Boost the voltage in an electrical circuit .,[Mask] the voltage in an electrical circuit .,Appeal to somebody for help !,Appeal,0
+163,0,Boost,0,Boost the voltage in an electrical circuit .,[Mask] the voltage in an electrical circuit .,The rooms communicated,communicated,2
+164,0,Boost,0,Boost the voltage in an electrical circuit .,[Mask] the voltage in an electrical circuit .,This problem admits of no solution,admits,2
+165,0,computerized,4,Our office is fully computerized now .,Our office is fully [Mask] now .,This office is buzzing with activity,buzzing,3
+166,0,computerized,4,Our office is fully computerized now .,Our office is fully [Mask] now .,I was drowned in work,drowned,2
+167,0,computerized,4,Our office is fully computerized now .,Our office is fully [Mask] now .,He breathed new life into the old house,breathed,1
+168,0,accommodate,2,Can you accommodate me with a rental car ?,Can you [Mask] me with a rental car ?,The steering of my new car answers to the slightest touch,answers,6
+169,0,accommodate,2,Can you accommodate me with a rental car ?,Can you [Mask] me with a rental car ?,you can count on me to help you any time,count,2
+170,0,accommodate,2,Can you accommodate me with a rental car ?,Can you [Mask] me with a rental car ?,Appeal to somebody for help !,Appeal,0
+171,0,attest,1,I attest this signature,I [Mask] this signature,Appeal to somebody for help !,Appeal,0
+172,0,attest,1,I attest this signature,I [Mask] this signature,I was drowned in work,drowned,2
+173,0,attest,1,I attest this signature,I [Mask] this signature,you can count on me to help you any time,count,2
+174,0,colored,2,The child colored the drawings,The child [Mask] the drawings,The rooms communicated,communicated,2
+175,0,colored,2,The child colored the drawings,The child [Mask] the drawings,dashed ambitions and hopes,dashed,0
+176,0,colored,2,The child colored the drawings,The child [Mask] the drawings,Her feelings condensed,condensed,2
+177,1,crawled,2,My skin crawled I was terrified,My skin [Mask] I was terrified,This book belongs to me,belongs,2
+178,1,crawled,2,My skin crawled I was terrified,My skin [Mask] I was terrified,She didn't want to answer,answer,4
+179,1,crawled,2,My skin crawled I was terrified,My skin [Mask] I was terrified,The dentist cleaned my teeth,cleaned,2
+180,0,assigned,2,We were assigned new uniforms .,We were [Mask] new uniforms .,I was drowned in work,drowned,2
+181,0,assigned,2,We were assigned new uniforms .,We were [Mask] new uniforms .,They fastened various nicknames to each other .,fastened,1
+182,0,assigned,2,We were assigned new uniforms .,We were [Mask] new uniforms .,My skin crawled I was terrified,crawled,2
+183,1,capture,0,capture the essence of Spring,[Mask] the essence of Spring,I can breathe better when the air is clean,breathe,2
+184,1,capture,0,capture the essence of Spring,[Mask] the essence of Spring,The rubber ball bounced,bounced,3
+185,1,capture,0,capture the essence of Spring,[Mask] the essence of Spring,This book belongs to me,belongs,2
+186,1,dawned,1,It dawned on him that she had betrayed him,It [Mask] on him that she had betrayed him,She challenged his claims,challenged,1
+187,1,dawned,1,It dawned on him that she had betrayed him,It [Mask] on him that she had betrayed him,Her action amounted to a rebellion,amounted,2
+188,1,dawned,1,It dawned on him that she had betrayed him,It [Mask] on him that she had betrayed him,The death of his wife caused him to age fast,age,8
+189,0,back,0,back into the driveway,[Mask] into the driveway,He breathed new life into the old house,breathed,1
+190,0,back,0,back into the driveway,[Mask] into the driveway,The steering of my new car answers to the slightest touch,answers,6
+191,0,back,0,back into the driveway,[Mask] into the driveway,Appeal to somebody for help !,Appeal,0
+192,1,clapped,2,The judge clapped him in jail,The judge [Mask] him in jail,He was found guilty but appealed immediately .,appealed,5
+193,1,clapped,2,The judge clapped him in jail,The judge [Mask] him in jail,he clamored for justice and tolerance,clamored,1
+194,1,clapped,2,The judge clapped him in jail,The judge [Mask] him in jail,He bowed before the King,bowed,1
+195,1,backing,4,Which horse are you backing ?,Which horse are you [Mask] ?,think before you act,act,3
+196,1,backing,4,Which horse are you backing ?,Which horse are you [Mask] ?,Do you appreciate the full meaning of this letter ?,appreciate,2
+197,1,backing,4,Which horse are you backing ?,Which horse are you [Mask] ?,He bowed before the King,bowed,1
+198,0,asked,1,I asked about their special today,I [Mask] about their special today,I aim to arrive at noon,aim,1
+199,0,asked,1,I asked about their special today,I [Mask] about their special today,I was drowned in work,drowned,2
+200,0,asked,1,I asked about their special today,I [Mask] about their special today,They fastened various nicknames to each other .,fastened,1
+201,0,avoid,1,Let's avoid a confrontation .,Let's [Mask] a confrontation .,They fastened various nicknames to each other .,fastened,1
+202,0,avoid,1,Let's avoid a confrontation .,Let's [Mask] a confrontation .,The speech crowned the meeting,crowned,2
+203,0,avoid,1,Let's avoid a confrontation .,Let's [Mask] a confrontation .,Turn and face your partner now .,face,2
+204,0,conduct,2,You cannot conduct business like this,You cannot [Mask] business like this,I can't buy this story,buy,2
+205,0,conduct,2,You cannot conduct business like this,You cannot [Mask] business like this,I cannot digest all this information,digest,2
+206,0,conduct,2,You cannot conduct business like this,You cannot [Mask] business like this,You must adhere to the rules .,adhere,2
+207,1,absorbed,1,He absorbed the knowledge or beliefs of his tribe .,He [Mask] the knowledge or beliefs of his tribe .,She challenged his claims,challenged,1
+208,1,absorbed,1,He absorbed the knowledge or beliefs of his tribe .,He [Mask] the knowledge or beliefs of his tribe .,I believed his report,believed,1
+209,1,absorbed,1,He absorbed the knowledge or beliefs of his tribe .,He [Mask] the knowledge or beliefs of his tribe .,he clamored for justice and tolerance,clamored,1
+210,1,color,3,My personal feelings color my judgment in this case,My personal feelings [Mask] my judgment in this case,This book belongs to me,belongs,2
+211,1,color,3,My personal feelings color my judgment in this case,My personal feelings [Mask] my judgment in this case,I asked about their special today,asked,1
+212,1,color,3,My personal feelings color my judgment in this case,My personal feelings [Mask] my judgment in this case,I believed his report,believed,1
+213,0,challenged,1,She challenged his claims,She [Mask] his claims,Her feelings condensed,condensed,2
+214,0,challenged,1,She challenged his claims,She [Mask] his claims,It dawned on him that she had betrayed him,dawned,1
+215,0,challenged,1,She challenged his claims,She [Mask] his claims,She circulates among royalty .,circulates,1
+216,1,face,2,Turn and face your partner now .,Turn and [Mask] your partner now .,Let's avoid a confrontation .,avoid,1
+217,1,face,2,Turn and face your partner now .,Turn and [Mask] your partner now .,Permit me to acquaint you with my son .,acquaint,3
+218,1,face,2,Turn and face your partner now .,Turn and [Mask] your partner now .,think before you act,act,3
+219,0,belongs,2,This book belongs to me,This book [Mask] to me,My skin crawled I was terrified,crawled,2
+220,0,belongs,2,This book belongs to me,This book [Mask] to me,dashed ambitions and hopes,dashed,0
+221,0,belongs,2,This book belongs to me,This book [Mask] to me,I was drowned in work,drowned,2
+222,1,digest,2,I cannot digest all this information,I cannot [Mask] all this information,You cannot conduct business like this,conduct,2
+223,1,digest,2,I cannot digest all this information,I cannot [Mask] all this information,This book belongs to me,belongs,2
+224,1,digest,2,I cannot digest all this information,I cannot [Mask] all this information,I believed his report,believed,1
+225,1,blazed,1,Meteors blazed across the atmosphere .,Meteors [Mask] across the atmosphere .,The stars are obscured by the clouds .,clouds,6
+226,1,blazed,1,Meteors blazed across the atmosphere .,Meteors [Mask] across the atmosphere .,The big bird clapped its wings,clapped,3
+227,1,blazed,1,Meteors blazed across the atmosphere .,Meteors [Mask] across the atmosphere .,back into the driveway,back,0
+228,0,cheered,1,everybody cheered the birthday boy,everybody [Mask] the birthday boy,dashed ambitions and hopes,dashed,0
+229,0,cheered,1,everybody cheered the birthday boy,everybody [Mask] the birthday boy,capture the essence of Spring,capture,0
+230,0,cheered,1,everybody cheered the birthday boy,everybody [Mask] the birthday boy,They fastened various nicknames to each other .,fastened,1
+231,1,erupted,1,Unrest erupted in the country,Unrest [Mask] in the country,Her action amounted to a rebellion,amounted,2
+232,1,erupted,1,Unrest erupted in the country,Unrest [Mask] in the country,He addressed the crowd outside the window .,addressed,1
+233,1,erupted,1,Unrest erupted in the country,Unrest [Mask] in the country,he clamored for justice and tolerance,clamored,1
+234,0,bowed,1,He bowed before the King,He [Mask] before the King,She circulates among royalty .,circulates,1
+235,0,bowed,1,He bowed before the King,He [Mask] before the King,Appeal to somebody for help !,Appeal,0
+236,0,bowed,1,He bowed before the King,He [Mask] before the King,dashed ambitions and hopes,dashed,0
+237,0,aim,2,Please don't aim at your little brother !,Please don't [Mask] at your little brother !,Don't bolt your food !,bolt,1
+238,0,aim,2,Please don't aim at your little brother !,Please don't [Mask] at your little brother !,Don't abuse the system .,abuse,1
+239,0,aim,2,Please don't aim at your little brother !,Please don't [Mask] at your little brother !,You must adhere to the rules .,adhere,2
+240,0,communicate,1,Please communicate this message to all employees,Please [Mask] this message to all employees,I was drowned in work,drowned,2
+241,0,communicate,1,Please communicate this message to all employees,Please [Mask] this message to all employees,Appeal to somebody for help !,Appeal,0
+242,0,communicate,1,Please communicate this message to all employees,Please [Mask] this message to all employees,You must adhere to the rules .,adhere,2
+243,0,clouds,6,The stars are obscured by the clouds .,The stars are obscured by the [Mask] .,The rooms communicated,communicated,2
+244,0,clouds,6,The stars are obscured by the clouds .,The stars are obscured by the [Mask] .,Meteors blazed across the atmosphere .,blazed,1
+245,0,clouds,6,The stars are obscured by the clouds .,The stars are obscured by the [Mask] .,dashed ambitions and hopes,dashed,0
+246,1,blurred,6,The distinction between the two theories blurred,The distinction between the two theories [Mask],think before you act,act,3
+247,1,blurred,6,The distinction between the two theories blurred,The distinction between the two theories [Mask],Let's avoid a confrontation .,avoid,1
+248,1,blurred,6,The distinction between the two theories blurred,The distinction between the two theories [Mask],This book belongs to me,belongs,2
+249,0,ascended,1,We ascended the mountain .,We [Mask] the mountain .,They clawed their way to the top of the mountain .,clawed,1
+250,0,ascended,1,We ascended the mountain .,We [Mask] the mountain .,We escaped to our summer house for a few days,escaped,1
+251,0,ascended,1,We ascended the mountain .,We [Mask] the mountain .,You must adhere to the rules .,adhere,2
+252,1,culminated,2,The meeting culminated in a tearful embrace .,The meeting [Mask] in a tearful embrace .,He suddenly appeared at the wedding,appeared,2
+253,1,culminated,2,The meeting culminated in a tearful embrace .,The meeting [Mask] in a tearful embrace .,This book belongs to me,belongs,2
+254,1,culminated,2,The meeting culminated in a tearful embrace .,The meeting [Mask] in a tearful embrace .,John compared his haircut to his friend's,compared,1
+255,1,convulsed,2,The comedian convulsed the crowd,The comedian [Mask] the crowd,He addressed the crowd outside the window .,addressed,1
+256,1,convulsed,2,The comedian convulsed the crowd,The comedian [Mask] the crowd,He admitted his errors,admitted,1
+257,1,convulsed,2,The comedian convulsed the crowd,The comedian [Mask] the crowd,He bowed before the King,bowed,1
+258,1,erased,2,The Turks erased the Armenians in 1915,The Turks [Mask] the Armenians in 1915,The Turks besieged Vienna,besieged,2
+259,1,erased,2,The Turks erased the Armenians in 1915,The Turks [Mask] the Armenians in 1915,They adhered to their plan .,adhered,1
+260,1,erased,2,The Turks erased the Armenians in 1915,The Turks [Mask] the Armenians in 1915,Immigrants often want to assimilate quickly,assimilate,4
+261,1,drowned,2,I was drowned in work,I was [Mask] in work,This boss abuses his workers .,abuses,2
+262,1,drowned,2,I was drowned in work,I was [Mask] in work,I believed his report,believed,1
+263,1,drowned,2,I was drowned in work,I was [Mask] in work,Please communicate this message to all employees,communicate,1
+264,0,claimed,1,He claimed that he killed the burglar,He [Mask] that he killed the burglar,It dawned on him that she had betrayed him,dawned,1
+265,0,claimed,1,He claimed that he killed the burglar,He [Mask] that he killed the burglar,Greed and ambition composed his personality,composed,3
+266,0,claimed,1,He claimed that he killed the burglar,He [Mask] that he killed the burglar,He breathed new life into the old house,breathed,1
+267,0,answer,4,She didn't want to answer,She didn't want to [Mask],She was crushed by his refusal of her invitation,crushed,2
+268,0,answer,4,She didn't want to answer,She didn't want to [Mask],Her feelings condensed,condensed,2
+269,0,answer,4,She didn't want to answer,She didn't want to [Mask],She tended to blast when speaking into a microphone,blast,3
+270,1,climbing,2,Sales were climbing after prices were lowered,Sales were [Mask] after prices were lowered,We agreed on the terms of the settlement,agreed,1
+271,1,climbing,2,Sales were climbing after prices were lowered,Sales were [Mask] after prices were lowered,You cannot conduct business like this,conduct,2
+272,1,climbing,2,Sales were climbing after prices were lowered,Sales were [Mask] after prices were lowered,They adhered to their plan .,adhered,1
+273,1,communicated,2,The rooms communicated,The rooms [Mask],administer a program,administer,0
+274,1,communicated,2,The rooms communicated,The rooms [Mask],He addressed the crowd outside the window .,addressed,1
+275,1,communicated,2,The rooms communicated,The rooms [Mask],He bowed before the King,bowed,1
+276,0,buzzing,2,bees were buzzing around the hive,bees were [Mask] around the hive,The rooms communicated,communicated,2
+277,0,buzzing,2,bees were buzzing around the hive,bees were [Mask] around the hive,I was drowned in work,drowned,2
+278,0,buzzing,2,bees were buzzing around the hive,bees were [Mask] around the hive,capture the essence of Spring,capture,0
+279,1,corrected,3,the stock market corrected,the stock market [Mask],administer a program,administer,0
+280,1,corrected,3,the stock market corrected,the stock market [Mask],He addressed the crowd outside the window .,addressed,1
+281,1,corrected,3,the stock market corrected,the stock market [Mask],You cannot conduct business like this,conduct,2
+282,0,affect,4,Will the new rules affect me ?,Will the new rules [Mask] me ?,You must adhere to the rules .,adhere,2
+283,0,affect,4,Will the new rules affect me ?,Will the new rules [Mask] me ?,I was drowned in work,drowned,2
+284,0,affect,4,Will the new rules affect me ?,Will the new rules [Mask] me ?,I aim to arrive at noon,aim,1
+285,1,buzzing,3,This office is buzzing with activity,This office is [Mask] with activity,Our office is fully computerized now .,computerized,4
+286,1,buzzing,3,This office is buzzing with activity,This office is [Mask] with activity,This boss abuses his workers .,abuses,2
+287,1,buzzing,3,This office is buzzing with activity,This office is [Mask] with activity,administer a program,administer,0
+288,0,brushed,1,Johnson brushed the hairs from his jacket,Johnson [Mask] the hairs from his jacket,I was drowned in work,drowned,2
+289,0,brushed,1,Johnson brushed the hairs from his jacket,Johnson [Mask] the hairs from his jacket,Appeal to somebody for help !,Appeal,0
+290,0,brushed,1,Johnson brushed the hairs from his jacket,Johnson [Mask] the hairs from his jacket,capture the essence of Spring,capture,0
+291,0,blended,1,She blended the nuts and raisins together .,She [Mask] the nuts and raisins together .,Her feelings condensed,condensed,2
+292,0,blended,1,She blended the nuts and raisins together .,She [Mask] the nuts and raisins together .,She circulates among royalty .,circulates,1
+293,0,blended,1,She blended the nuts and raisins together .,She [Mask] the nuts and raisins together .,She tended to blast when speaking into a microphone,blast,3
+294,0,approaching,2,We were approaching our destination,We were [Mask] our destination,dashed ambitions and hopes,dashed,0
+295,0,approaching,2,We were approaching our destination,We were [Mask] our destination,We escaped to our summer house for a few days,escaped,1
+296,0,approaching,2,We were approaching our destination,We were [Mask] our destination,They clawed their way to the top of the mountain .,clawed,1
+297,1,curled,3,The cigar smoke curled up at the ceiling .,The cigar smoke [Mask] up at the ceiling .,I can breathe better when the air is clean,breathe,2
+298,1,curled,3,The cigar smoke curled up at the ceiling .,The cigar smoke [Mask] up at the ceiling .,The haze blurs the hills,blurs,2
+299,1,curled,3,The cigar smoke curled up at the ceiling .,The cigar smoke [Mask] up at the ceiling .,He addressed the crowd outside the window .,addressed,1
+300,1,crowned,2,The speech crowned the meeting,The speech [Mask] the meeting,Let's avoid a confrontation .,avoid,1
+301,1,crowned,2,The speech crowned the meeting,The speech [Mask] the meeting,He bowed before the King,bowed,1
+302,1,crowned,2,The speech crowned the meeting,The speech [Mask] the meeting,They adhered to their plan .,adhered,1
+303,0,blaze,9,The summer sun alone can cause a pine to blaze .,The summer sun alone can cause a pine to [Mask] .,We escaped to our summer house for a few days,escaped,1
+304,0,blaze,9,The summer sun alone can cause a pine to blaze .,The summer sun alone can cause a pine to [Mask] .,capture the essence of Spring,capture,0
+305,0,blaze,9,The summer sun alone can cause a pine to blaze .,The summer sun alone can cause a pine to [Mask] .,Fire had devoured our home,devoured,2
+306,0,age,8,The death of his wife caused him to age fast,The death of his wife caused him to [Mask] fast,His devotion to his sick wife condemned him to a lonely existence,condemned,6
+307,0,age,8,The death of his wife caused him to age fast,The death of his wife caused him to [Mask] fast,It dawned on him that she had betrayed him,dawned,1
+308,0,age,8,The death of his wife caused him to age fast,The death of his wife caused him to [Mask] fast,His high fever attested to his illness,attested,3
+309,1,attacked,8,The editors of the left - leaning paper attacked the new House Speaker,The editors of the left - leaning paper [Mask] the new House Speaker,The program committee acknowledged the submission of the authors of the paper,acknowledged,3
+310,1,attacked,8,The editors of the left - leaning paper attacked the new House Speaker,The editors of the left - leaning paper [Mask] the new House Speaker,This letter is being circulated among the faculty .,circulated,4
+311,1,attacked,8,The editors of the left - leaning paper attacked the new House Speaker,The editors of the left - leaning paper [Mask] the new House Speaker,They adhered to their plan .,adhered,1
+312,0,cleaned,2,The dentist cleaned my teeth,The dentist [Mask] my teeth,I was drowned in work,drowned,2
+313,0,cleaned,2,The dentist cleaned my teeth,The dentist [Mask] my teeth,Appeal to somebody for help !,Appeal,0
+314,0,cleaned,2,The dentist cleaned my teeth,The dentist [Mask] my teeth,My skin crawled I was terrified,crawled,2
+315,1,clawed,1,They clawed their way to the top of the mountain .,They [Mask] their way to the top of the mountain .,We ascended the mountain .,ascended,1
+316,1,clawed,1,They clawed their way to the top of the mountain .,They [Mask] their way to the top of the mountain .,Her feet blistered during the long hike .,blistered,2
+317,1,clawed,1,They clawed their way to the top of the mountain .,They [Mask] their way to the top of the mountain .,They adhered to their plan .,adhered,1
+318,0,assume,1,I assume his train was late,I [Mask] his train was late,I aim to arrive at noon,aim,1
+319,0,assume,1,I assume his train was late,I [Mask] his train was late,I was drowned in work,drowned,2
+320,0,assume,1,I assume his train was late,I [Mask] his train was late,Appeal to somebody for help !,Appeal,0
+321,0,assimilate,4,Immigrants often want to assimilate quickly,Immigrants often want to [Mask] quickly,Unrest erupted in the country,erupted,1
+322,0,assimilate,4,Immigrants often want to assimilate quickly,Immigrants often want to [Mask] quickly,I was drowned in work,drowned,2
+323,0,assimilate,4,Immigrants often want to assimilate quickly,Immigrants often want to [Mask] quickly,I aim to arrive at noon,aim,1
+324,0,begins,2,The DMZ begins right over the hill,The DMZ [Mask] right over the hill,The government bowed to the military pressure,bowed,2
+325,0,begins,2,The DMZ begins right over the hill,The DMZ [Mask] right over the hill,Unrest erupted in the country,erupted,1
+326,0,begins,2,The DMZ begins right over the hill,The DMZ [Mask] right over the hill,They clawed their way to the top of the mountain .,clawed,1
+327,1,count,2,you can count on me to help you any time,you can [Mask] on me to help you any time,Permit me to acquaint you with my son .,acquaint,3
+328,1,count,2,you can count on me to help you any time,you can [Mask] on me to help you any time,administer a program,administer,0
+329,1,count,2,you can count on me to help you any time,you can [Mask] on me to help you any time,I attest this signature,attest,1
+330,0,bolted,1,She bolted from her seat,She [Mask] from her seat,She acts as the chair,acts,1
+331,0,bolted,1,She bolted from her seat,She [Mask] from her seat,She circulates among royalty .,circulates,1
+332,0,bolted,1,She bolted from her seat,She [Mask] from her seat,Middle age dulled her appetite for travel,dulled,2
+333,1,bolt,1,Don't bolt your food !,Don't [Mask] your food !,Please don't aim at your little brother !,aim,2
+334,1,bolt,1,Don't bolt your food !,Don't [Mask] your food !,We don't allow dogs here,allow,2
+335,1,bolt,1,Don't bolt your food !,Don't [Mask] your food !,You cannot conduct business like this,conduct,2
+336,1,crushed,2,She was crushed by his refusal of her invitation,She was [Mask] by his refusal of her invitation,She didn't want to answer,answer,4
+337,1,crushed,2,She was crushed by his refusal of her invitation,She was [Mask] by his refusal of her invitation,Her action amounted to a rebellion,amounted,2
+338,1,crushed,2,She was crushed by his refusal of her invitation,She was [Mask] by his refusal of her invitation,She challenged his claims,challenged,1
+339,0,captured,3,This nucleus has captured the slow - moving neutrons,This nucleus has [Mask] the slow - moving neutrons,This office is buzzing with activity,buzzing,3
+340,0,captured,3,This nucleus has captured the slow - moving neutrons,This nucleus has [Mask] the slow - moving neutrons,They fastened various nicknames to each other .,fastened,1
+341,0,captured,3,This nucleus has captured the slow - moving neutrons,This nucleus has [Mask] the slow - moving neutrons,The rooms communicated,communicated,2
+342,1,deflated,6,The bad review of his work deflated his self - confidence,The bad review of his work [Mask] his self - confidence,He admitted his errors,admitted,1
+343,1,deflated,6,The bad review of his work deflated his self - confidence,The bad review of his work [Mask] his self - confidence,I believed his report,believed,1
+344,1,deflated,6,The bad review of his work deflated his self - confidence,The bad review of his work [Mask] his self - confidence,She challenged his claims,challenged,1
+345,0,condense,0,condense the contents of a book into a summary,[Mask] the contents of a book into a summary,The speech crowned the meeting,crowned,2
+346,0,condense,0,condense the contents of a book into a summary,[Mask] the contents of a book into a summary,The event engraved itself into her memory,engraved,2
+347,0,condense,0,condense the contents of a book into a summary,[Mask] the contents of a book into a summary,I cannot digest all this information,digest,2
+348,1,escaped,1,We escaped to our summer house for a few days,We [Mask] to our summer house for a few days,We ascended the mountain .,ascended,1
+349,1,escaped,1,We escaped to our summer house for a few days,We [Mask] to our summer house for a few days,back into the driveway,back,0
+350,1,escaped,1,We escaped to our summer house for a few days,We [Mask] to our summer house for a few days,We were approaching our destination,approaching,2
+351,1,converged,2,Social forces converged to bring the Fascists back to power .,Social forces [Mask] to bring the Fascists back to power .,They adhered to their plan .,adhered,1
+352,1,converged,2,Social forces converged to bring the Fascists back to power .,Social forces [Mask] to bring the Fascists back to power .,Her action amounted to a rebellion,amounted,2
+353,1,converged,2,Social forces converged to bring the Fascists back to power .,Social forces [Mask] to bring the Fascists back to power .,This boss abuses his workers .,abuses,2
+354,1,breathed,1,He breathed new life into the old house,He [Mask] new life into the old house,back into the driveway,back,0
+355,1,breathed,1,He breathed new life into the old house,He [Mask] new life into the old house,He addressed the crowd outside the window .,addressed,1
+356,1,breathed,1,He breathed new life into the old house,He [Mask] new life into the old house,Our office is fully computerized now .,computerized,4
+357,0,compared,1,John compared his haircut to his friend's,John [Mask] his haircut to his friend's,They fastened various nicknames to each other .,fastened,1
+358,0,compared,1,John compared his haircut to his friend's,John [Mask] his haircut to his friend's,Appeal to somebody for help !,Appeal,0
+359,0,compared,1,John compared his haircut to his friend's,John [Mask] his haircut to his friend's,The speech crowned the meeting,crowned,2
+360,1,composed,3,Greed and ambition composed his personality,Greed and ambition [Mask] his personality,He admitted his errors,admitted,1
+361,1,composed,3,Greed and ambition composed his personality,Greed and ambition [Mask] his personality,He bowed before the King,bowed,1
+362,1,composed,3,Greed and ambition composed his personality,Greed and ambition [Mask] his personality,She challenged his claims,challenged,1
+363,1,ascend,3,Inheritance may not ascend linearly .,Inheritance may not [Mask] linearly .,You cannot conduct business like this,conduct,2
+364,1,ascend,3,Inheritance may not ascend linearly .,Inheritance may not [Mask] linearly .,We don't allow dogs here,allow,2
+365,1,ascend,3,Inheritance may not ascend linearly .,Inheritance may not [Mask] linearly .,He admitted his errors,admitted,1
+366,0,committed,1,She committed herself to the work of God,She [Mask] herself to the work of God,Her feelings condensed,condensed,2
+367,0,committed,1,She committed herself to the work of God,She [Mask] herself to the work of God,She tended to blast when speaking into a microphone,blast,3
+368,0,committed,1,She committed herself to the work of God,She [Mask] herself to the work of God,The event engraved itself into her memory,engraved,2
+369,1,downsized,3,Three secretaries were downsized during the financial crisis .,Three secretaries were [Mask] during the financial crisis .,Our office is fully computerized now .,computerized,4
+370,1,downsized,3,Three secretaries were downsized during the financial crisis .,Three secretaries were [Mask] during the financial crisis .,They adhered to their plan .,adhered,1
+371,1,downsized,3,Three secretaries were downsized during the financial crisis .,Three secretaries were [Mask] during the financial crisis .,This letter is being circulated among the faculty .,circulated,4
+372,1,designed,1,She designed a good excuse for not attending classes that day .,She [Mask] a good excuse for not attending classes that day .,She attends class regularly,attends,1
+373,1,designed,1,She designed a good excuse for not attending classes that day .,She [Mask] a good excuse for not attending classes that day .,She didn't want to answer,answer,4
+374,1,designed,1,She designed a good excuse for not attending classes that day .,She [Mask] a good excuse for not attending classes that day .,She bolted from her seat,bolted,1
+375,1,air,3,This show will air Saturdays at 2 P . M .,This show will [Mask] Saturdays at 2 P . M .,I asked about their special today,asked,1
+376,1,air,3,This show will air Saturdays at 2 P . M .,This show will [Mask] Saturdays at 2 P . M .,administer a program,administer,0
+377,1,air,3,This show will air Saturdays at 2 P . M .,This show will [Mask] Saturdays at 2 P . M .,She attends class regularly,attends,1
+378,0,acquaint,3,Permit me to acquaint you with my son .,Permit me to [Mask] you with my son .,you can count on me to help you any time,count,2
+379,0,acquaint,3,Permit me to acquaint you with my son .,Permit me to [Mask] you with my son .,Turn and face your partner now .,face,2
+380,0,acquaint,3,Permit me to acquaint you with my son .,Permit me to [Mask] you with my son .,The mother drinks in every word of her son on the stage,drinks,2
+381,0,agreed,1,We agreed on the terms of the settlement,We [Mask] on the terms of the settlement,You must adhere to the rules .,adhere,2
+382,0,agreed,1,We agreed on the terms of the settlement,We [Mask] on the terms of the settlement,The company dumped him after many years of service,dumped,2
+383,0,agreed,1,We agreed on the terms of the settlement,We [Mask] on the terms of the settlement,They fastened various nicknames to each other .,fastened,1
+384,0,blistered,2,Her feet blistered during the long hike .,Her feet [Mask] during the long hike .,Middle age dulled her appetite for travel,dulled,2
+385,0,blistered,2,Her feet blistered during the long hike .,Her feet [Mask] during the long hike .,They clawed their way to the top of the mountain .,clawed,1
+386,0,blistered,2,Her feet blistered during the long hike .,Her feet [Mask] during the long hike .,She circulates among royalty .,circulates,1
+387,0,clamored,1,he clamored for justice and tolerance,he [Mask] for justice and tolerance,Unrest erupted in the country,erupted,1
+388,0,clamored,1,he clamored for justice and tolerance,he [Mask] for justice and tolerance,dashed ambitions and hopes,dashed,0
+389,0,clamored,1,he clamored for justice and tolerance,he [Mask] for justice and tolerance,He absorbed the knowledge or beliefs of his tribe .,absorbed,1
+390,0,coopted,3,The church members coopted individuals from similar backgrounds to replenish the congregation,The church members [Mask] individuals from similar backgrounds to replenish the congregation,They fastened various nicknames to each other .,fastened,1
+391,0,coopted,3,The church members coopted individuals from similar backgrounds to replenish the congregation,The church members [Mask] individuals from similar backgrounds to replenish the congregation,The speech crowned the meeting,crowned,2
+392,0,coopted,3,The church members coopted individuals from similar backgrounds to replenish the congregation,The church members [Mask] individuals from similar backgrounds to replenish the congregation,He absorbed the knowledge or beliefs of his tribe .,absorbed,1
+393,1,fastened,1,They fastened various nicknames to each other .,They [Mask] various nicknames to each other .,Let's avoid a confrontation .,avoid,1
+394,1,fastened,1,They fastened various nicknames to each other .,They [Mask] various nicknames to each other .,They adhered to their plan .,adhered,1
+395,1,fastened,1,They fastened various nicknames to each other .,They [Mask] various nicknames to each other .,We were assigned new uniforms .,assigned,2
+396,1,devoured,2,Fire had devoured our home,Fire had [Mask] our home,back into the driveway,back,0
+397,1,devoured,2,Fire had devoured our home,Fire had [Mask] our home,Our office is fully computerized now .,computerized,4
+398,1,devoured,2,Fire had devoured our home,Fire had [Mask] our home,We ascended the mountain .,ascended,1
+399,1,attested,3,His high fever attested to his illness,His high fever [Mask] to his illness,The death of his wife caused him to age fast,age,8
+400,1,attested,3,His high fever attested to his illness,His high fever [Mask] to his illness,He bowed before the King,bowed,1
+401,1,attested,3,His high fever attested to his illness,His high fever [Mask] to his illness,He admitted his errors,admitted,1
+402,0,administer,0,administer a program,[Mask] a program,Appeal to somebody for help !,Appeal,0
+403,0,administer,0,administer a program,[Mask] a program,dashed ambitions and hopes,dashed,0
+404,0,administer,0,administer a program,[Mask] a program,I was drowned in work,drowned,2
+405,0,buy,3,This sum will buy you a ride on the train,This sum will [Mask] you a ride on the train,you can count on me to help you any time,count,2
+406,0,buy,3,This sum will buy you a ride on the train,This sum will [Mask] you a ride on the train,Middle age dulled her appetite for travel,dulled,2
+407,0,buy,3,This sum will buy you a ride on the train,This sum will [Mask] you a ride on the train,I aim to arrive at noon,aim,1
+408,1,drinks,2,The mother drinks in every word of her son on the stage,The mother [Mask] in every word of her son on the stage,Permit me to acquaint you with my son .,acquaint,3
+409,1,drinks,2,The mother drinks in every word of her son on the stage,The mother [Mask] in every word of her son on the stage,She bolted from her seat,bolted,1
+410,1,drinks,2,The mother drinks in every word of her son on the stage,The mother [Mask] in every word of her son on the stage,She attends class regularly,attends,1
+411,1,dashed,0,dashed ambitions and hopes,[Mask] ambitions and hopes,administer a program,administer,0
+412,1,dashed,0,dashed ambitions and hopes,[Mask] ambitions and hopes,This book belongs to me,belongs,2
+413,1,dashed,0,dashed ambitions and hopes,[Mask] ambitions and hopes,think before you act,act,3
+414,1,Appeal,0,Appeal to somebody for help !,[Mask] to somebody for help !,administer a program,administer,0
+415,1,Appeal,0,Appeal to somebody for help !,[Mask] to somebody for help !,think before you act,act,3
+416,1,Appeal,0,Appeal to somebody for help !,[Mask] to somebody for help !,I attest this signature,attest,1
+417,0,amounted,2,Her action amounted to a rebellion,Her action [Mask] to a rebellion,She circulates among royalty .,circulates,1
+418,0,amounted,2,Her action amounted to a rebellion,Her action [Mask] to a rebellion,Her feelings condensed,condensed,2
+419,0,amounted,2,Her action amounted to a rebellion,Her action [Mask] to a rebellion,It dawned on him that she had betrayed him,dawned,1
+420,0,building,2,Suspense was building right from the beginning of the opera,Suspense was [Mask] right from the beginning of the opera,My skin crawled I was terrified,crawled,2
+421,0,building,2,Suspense was building right from the beginning of the opera,Suspense was [Mask] right from the beginning of the opera,She circulates among royalty .,circulates,1
+422,0,building,2,Suspense was building right from the beginning of the opera,Suspense was [Mask] right from the beginning of the opera,The event engraved itself into her memory,engraved,2
+423,1,clamored,2,The delegates clamored their disappointment,The delegates [Mask] their disappointment,They adhered to their plan .,adhered,1
+424,1,clamored,2,The delegates clamored their disappointment,The delegates [Mask] their disappointment,Her action amounted to a rebellion,amounted,2
+425,1,clamored,2,The delegates clamored their disappointment,The delegates [Mask] their disappointment,I asked about their special today,asked,1
+426,0,climb,3,Did you ever climb up the hill behind your house ?,Did you ever [Mask] up the hill behind your house ?,They clawed their way to the top of the mountain .,clawed,1
+427,0,climb,3,Did you ever climb up the hill behind your house ?,Did you ever [Mask] up the hill behind your house ?,He breathed new life into the old house,breathed,1
+428,0,climb,3,Did you ever climb up the hill behind your house ?,Did you ever [Mask] up the hill behind your house ?,Fire had devoured our home,devoured,2
+429,0,addressed,1,He addressed the crowd outside the window .,He [Mask] the crowd outside the window .,The comedian convulsed the crowd,convulsed,2
+430,0,addressed,1,He addressed the crowd outside the window .,He [Mask] the crowd outside the window .,Unrest erupted in the country,erupted,1
+431,0,addressed,1,He addressed the crowd outside the window .,He [Mask] the crowd outside the window .,The rooms communicated,communicated,2
+432,0,adhered,1,They adhered to their plan .,They [Mask] to their plan .,You must adhere to the rules .,adhere,2
+433,0,adhered,1,They adhered to their plan .,They [Mask] to their plan .,They fastened various nicknames to each other .,fastened,1
+434,0,adhered,1,They adhered to their plan .,They [Mask] to their plan .,dashed ambitions and hopes,dashed,0
+435,1,depressed,4,The glut of oil depressed gas prices,The glut of oil [Mask] gas prices,The stars are obscured by the clouds .,clouds,6
+436,1,depressed,4,The glut of oil depressed gas prices,The glut of oil [Mask] gas prices,This sum will buy you a ride on the train,buy,3
+437,1,depressed,4,The glut of oil depressed gas prices,The glut of oil [Mask] gas prices,back into the driveway,back,0
+438,0,appealed,5,He was found guilty but appealed immediately .,He was found guilty but [Mask] immediately .,The judge clapped him in jail,clapped,2
+439,0,appealed,5,He was found guilty but appealed immediately .,He was found guilty but [Mask] immediately .,It dawned on him that she had betrayed him,dawned,1
+440,0,appealed,5,He was found guilty but appealed immediately .,He was found guilty but [Mask] immediately .,Greed and ambition composed his personality,composed,3
+441,0,believed,1,I believed his report,I [Mask] his report,I was drowned in work,drowned,2
+442,0,believed,1,I believed his report,I [Mask] his report,He absorbed the knowledge or beliefs of his tribe .,absorbed,1
+443,0,believed,1,I believed his report,I [Mask] his report,Appeal to somebody for help !,Appeal,0
+444,0,abuses,2,This boss abuses his workers .,This boss [Mask] his workers .,I was drowned in work,drowned,2
+445,0,abuses,2,This boss abuses his workers .,This boss [Mask] his workers .,The company dumped him after many years of service,dumped,2
+446,0,abuses,2,This boss abuses his workers .,This boss [Mask] his workers .,The boss exploded when he heard of the resignation of the secretary,exploded,2
+447,1,agree,3,White wine doesn't agree with me,White wine doesn't [Mask] with me,She didn't want to answer,answer,4
+448,1,agree,3,White wine doesn't agree with me,White wine doesn't [Mask] with me,We don't allow dogs here,allow,2
+449,1,agree,3,White wine doesn't agree with me,White wine doesn't [Mask] with me,Let's avoid a confrontation .,avoid,1
