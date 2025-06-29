@@ -1,0 +1,6 @@
+pandas
+transformers==4.8.1
+sklearn
+numpy
+torch
+yacs
