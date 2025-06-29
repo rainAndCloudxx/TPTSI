@@ -6,9 +6,9 @@
 
 | Dataset         | #Tar    | %M   | #Sent  | #Len    |
 |-----------------|---------|------|--------|---------|
-| MOH(train)      | 1,489   |22.49 | 1,482  | 7.31    |
-| MOH(test)       | 150     |50.00 | 150    | 7.26    |
-| MOH(val)        | 210     |50.00 | 70     | 7.17    |
+| MOH-X(train)    | 1,489   |22.49 | 1,482  | 7.31    |
+| MOH-X(test)     | 150     |50.00 | 150    | 7.26    |
+| MOH-X(val)      | 210     |50.00 | 70     | 7.17    |
 | TroFi(train)    | 1,772   |52.65 | 1,697  | 28.06   |
 | TroFi(test)     | 1,965   |61.67 | 1,925  | 29.05   |
 | TroFi(val)      | 650     |60.92 | 647    | 28.88   |
@@ -46,17 +46,12 @@ You can also get the original datasets from the following links:
 - VUA-20: [https://github.com/YU-NLPLab/DeepMet](https://github.com/YU-NLPLab/DeepMet)
 
 <br>
-
-## Basic Usage
-- Change the experimental settings in `config/config.yaml`. <br>
-- Run `main.py` to train and test models. <br>
-- Command line arguments are also acceptable with the same naming in configuration files.
-- Download Pytorch RoBERTa model from Huggingface https://huggingface.co/roberta-base and put in the folder `roberta-base`.
   
 ## Running MelBERT
 
 Run the following command for training:<br>
 `python main.py`
 
-- Using RoBERTa, MelBERT gets about 78.5 and 75.7 F1 scores on the VUA-18 and the VUA-verb set, respectively. Using model bagging techniques, we get about 79.8 and 77.1 F1 scorea on the VUA-18 and VUA-verb set, respectively.
-
+- Based on the experimental results on roberta-base, TPTSI achieved excellent F1 sources of 86.7, 83.6, and 80.7 on the MOH, TroFi, and VUA datasets, respectively, all of which were better than the existing baseline models.
+- Change the experimental settings in `config/config.yaml`. <br>
+- Download Pytorch RoBERTa model from Huggingface https://huggingface.co/roberta-base and put in the folder `roberta-base`.
